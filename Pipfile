@@ -9,6 +9,7 @@ django-imagekit = "*"
 pillow = "*"
 django-annoying = "*"
 whitenoise = "*"
+gunicorn = "*"
 
 [dev-packages]
 

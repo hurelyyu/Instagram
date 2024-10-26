@@ -1,0 +1,1 @@
+web: gunicorn InstaYY.wsgi --log-file -

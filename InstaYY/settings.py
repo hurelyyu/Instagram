@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
+    'whitenoise.runserver_nostatic',#help use local static file
     'Insta',
     'imagekit',
 
