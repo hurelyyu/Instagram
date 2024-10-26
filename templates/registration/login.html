@@ -1,0 +1,9 @@
+<h1>Login</h1>
+
+<form action="" method="post">
+    {% csrf_token %}
+    <!--从当前的view里会传递一个form给html，form里有个函数as_p，他的function是把form里的内容
+    以paragraph的形式表现出来-->
+    {{ form.as_p }}
+    <button type="submit">Login</button>
+</form>
